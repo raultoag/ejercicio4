@@ -14,10 +14,7 @@
 .row{
     margin: 0%;
 }
-.bodyContent{
-    margin-left: 15%;
-    margin-right: 15%;
-}
+
 /* .divUser{
     float: right;
 } */
@@ -36,15 +33,70 @@
 .cursor{
 	cursor:pointer;
 }
-.divFilter{
-    float: right;
-}
+
 .divLibros{
     clear: both;
+    text-align: justify;
 }
 .divInfoLib{
     justify-content: justify;
+    text-align: justify;
 }
 .textSize{
     font-size: 0.7rem;
+}
+.divTextImg{
+    text-align: justify;
+    margin-bottom: 5%;
+}
+@media (max-width: 575px){
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+	
+}
+@media (max-width: 767px){
+    .divFilter{
+        display: flex;
+    }
+    .divSelect{
+        order: 2;
+    }
+    .divInputSearch{
+        order: 1;
+        margin-bottom: 5%;
+    }
+    .divSelect .selectCat{
+        width: 100%!important;
+    }
+    .divInputSearch .inputSearch{
+        width: 85%!important;
+    }
+}
+@media (min-width: 768px){
+    .divInputSearch{
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.bodyContent{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (min-width: 992px){
+    .bodyContent{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+@media (min-width: 1200px){
+
+
 }
